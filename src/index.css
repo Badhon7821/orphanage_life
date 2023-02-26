@@ -5,3 +5,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+  position: relative;
+}
+.link::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s;
+}
+.link:hover::after {
+  width: 100%;
+}
