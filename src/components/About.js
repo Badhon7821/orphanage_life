@@ -12,6 +12,12 @@ const About = () => {
           abandoned children and orphans. We help orphans by providing health
           and educational opportunities, stable housing and adoption services.
         </p>
+        <p className="pt-6">
+          Orphan Life Foundation is a worldwide non-profit orphanage funding
+          organization that are dedicated to looking for the welfare of
+          abandoned children and orphans. We help orphans by providing health
+          and educational opportunities, stable housing and adoption services.
+        </p>
         <p className="text-justify py-6">
           With the help of our charity program for orphans, we’ve developed a
           number of orphanages, infant adoption centers, and schools in

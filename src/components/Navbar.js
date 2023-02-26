@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ foot }) => {
   return (
     <div className="py-5 bg-orange-600">
       <div className="container mx-auto flex justify-between items-center  text-white ">
@@ -13,7 +13,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <ul className="flex gap-4 uppercase">
+        <ul className={`${foot ? "text-xl" : "flex gap-4 uppercase"}`}>
           <li>
             <Link className="link" to="/about">
               About
