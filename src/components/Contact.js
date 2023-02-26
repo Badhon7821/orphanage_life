@@ -3,8 +3,9 @@ const Contact = () => {
     <div className="bg-gray-400 pb-20">
       <div className="container mx-auto ">
         <div className="text-center">
-          <h1 className="pt-16 pb-8 text-4xl text-white ">Contact US</h1>
-          <h2 className="text-white/60 text-2xl pb-10">
+          <h1 className="pt-16  text-4xl text-white pb-4">Contact US</h1>
+          <div className="bg-gray-200 h-[3px] w-[10%] mx-auto"></div>
+          <h2 className="text-white/60 text-2xl py-10">
             Orphan life Foundation,
             <br /> Panchagarh, Vitargarh, Road No- 1121
           </h2>

@@ -2,11 +2,11 @@ const About = () => {
   return (
     <div className="container mx-auto">
       <div className="">
-        <h2 className="text-3xl text-center mt-20 pb-6">
+        <h2 className="text-3xl text-center mt-20 pb-4">
           Each day, an estimated 734 children become orphans
         </h2>
-        <span></span>
-        <p>
+        <div className="bg-orange-600 h-[2px] w-[15%] mx-auto"></div>
+        <p className="pt-6">
           Orphan Life Foundation is a worldwide non-profit orphanage funding
           organization that are dedicated to looking for the welfare of
           abandoned children and orphans. We help orphans by providing health
