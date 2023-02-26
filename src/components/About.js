@@ -26,7 +26,7 @@ const About = () => {
             className="bg-orange-600 inline-block py-2 text-xl rounded-sm px-10 border-2 hover:border-orange-600 hover:border-2 hover:py-2 hover:bg-white duration-300"
             href="#"
           >
-            Donate Now
+            Learn more
           </a>
         </div>
       </div>
